@@ -1,0 +1,4 @@
+export default {
+  DATA_SOURCE: 'DATA_SOURCE',
+  LESSON_REPOSITORY: 'LESSON_REPOSITORY',
+};
