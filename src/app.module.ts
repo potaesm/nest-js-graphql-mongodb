@@ -4,6 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 import { GraphQLModule } from '@nestjs/graphql';
 import { configValidationSchema } from './config.schema';
 import { LessonModule } from './lesson/lesson.module';
+import { StudentModule } from './student/student.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { LessonModule } from './lesson/lesson.module';
       driver: ApolloDriver,
     }),
     LessonModule,
+    StudentModule,
   ],
 })
 export class AppModule {}

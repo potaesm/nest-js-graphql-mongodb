@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from 'src/database.module';
+import { DatabaseModule } from '../database.module';
 import { lessonProviders } from './lesson.providers';
 import { LessonResolver } from './lesson.resolver';
 import { LessonService } from './lesson.service';
